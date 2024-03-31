@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">formValidation</string>
+    <string name="text1">Enter Name</string>
+    <string name="text2">Enter Number</string>
+    <string name="text3">Enter Email</string>
+    <string name="text4">Enter Password</string>
+    <string name="text5">Re-Enter Password</string>
+    <string name="btn_text">Login</string>
+</resources>

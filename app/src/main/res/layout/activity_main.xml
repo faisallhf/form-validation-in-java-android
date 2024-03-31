@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:inputType="text"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:autofillHints="Enter Number 1"
+        android:inputType="phone"
+        android:hint="Enter Number" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:autofillHints="Enter Number 2"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:autofillHints="Enter Number 3"
+        android:inputType="textPassword"
+        android:hint="Enter Password" />
+
+
+    <EditText
+        android:id="@+id/editTextReEnterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        android:autofillHints="Enter Number 4"
+        android:inputType="textPassword"
+        android:hint="Re-Enter Password" />
+
+    <!-- Button for some action -->
+    <Button
+        android:id="@+id/login_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_text"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple"
+        android:textSize="18dp"/>
+</LinearLayout>
